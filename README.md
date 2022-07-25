@@ -204,12 +204,13 @@ factorial(12) => 479001600
 #### Exercise 11 
 The nation of Examplania follows the US marginal income tax rate system and has the following tax 
 brackets: 
-    | income cap | marginal tax rate 
-    |   :---:    |   :---: 
-    |   $10000   |   0.00 (0%)
-    |   $30000   |   0.10 (10%)
-    |   $100000  |   0.25 (25%)
-    |   --       |   0.40 (40%) 
+  
+| Income      | Marginal Tax Rate |
+| ----------- | ----------- |
+| $10000   | 0.00 (0%)      |
+| $30000   | 0.10 (10%)  |
+| $100000  | 0.25 (25%)  | 
+|  --      |  0.40 (40%) | 
 
 If you're not familiar with how taxes work, each tax rate applies only to income within the specific tax 
 bracket. For example, let's say someone makes $80000. The first $10000 of their income will be taxed at a 
