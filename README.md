@@ -350,7 +350,7 @@ largest([[1,2,3], 6, "hello world", 7.5, true, false]) => "hello world"
 
 #### Exercise 20 
 Following the idea of "largest" provided in problem 19, sort a list from the smallest
-value to the largest value. Write code inside the ```sort2(lst)`` function. 
+value to the largest value. Write code inside the ```sort2(lst)``` function. 
 
 ```
 sort2([[1,2,3], 6, "hello world", 7.5, true, false]) => [true, false, [1,2,3], 6, 7.5, "hello world"]
