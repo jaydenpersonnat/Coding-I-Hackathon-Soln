@@ -120,7 +120,7 @@ common([1,1,2,3,5,9,14,17,28,56], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) => [1,2,3,5,9
 ```luhn(card_number)``` is a function that takes in a credit-card number (as an integer) and returns 
 true or false based on whether the card_number is valid. How do we determine if a credit card 
 number is valid? Well, there's Luhn's algorithm. Based on Luhn's algorithm, you follow these steps to determine if a card is valid:
-    1. Multiply every other digit by 2, starting with the number's second-to-last digit, and then add those products together. 
+    1. Multiply every other digit by 2, starting with the number's second-to-last digit, and then add those products' digits together. 
     2. Take the sum you calculated in Step (1) and add it to the sum of the digits that were not multiplied by 2.
     3. If the total is divisible by 10, then the card number is valid. 
 

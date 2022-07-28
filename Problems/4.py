@@ -1,6 +1,4 @@
 
-
 def search(value, list): 
-    
-    return 
+    return value in list 
 
