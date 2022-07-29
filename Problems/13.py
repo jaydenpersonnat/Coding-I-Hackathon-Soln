@@ -12,6 +12,4 @@ def sundays():
 
     return counter
 
-print(sundays())
 
-    

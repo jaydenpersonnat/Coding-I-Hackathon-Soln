@@ -11,3 +11,4 @@ def shiftRight(string, num):
 
 
 
+print(shiftRight("abcd", 14))

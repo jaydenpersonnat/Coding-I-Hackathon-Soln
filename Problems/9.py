@@ -9,4 +9,3 @@ def change(amount):
             numCoins += 1
     return numCoins 
 
-print(change(468))

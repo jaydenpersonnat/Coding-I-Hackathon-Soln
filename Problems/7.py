@@ -14,3 +14,4 @@ def lettersum(string):
 
     return sum
 
+

@@ -23,3 +23,6 @@ def luhn(card_number):
         
     return sum % 10 == 0 
 
+print(luhn(2418293121314))
+
+

@@ -21,4 +21,3 @@ def largest(lst):
 
     return lst[index_of_element]
 
-print(largest([[1,2,3], 6, "hello world", 7.5, True, False]))

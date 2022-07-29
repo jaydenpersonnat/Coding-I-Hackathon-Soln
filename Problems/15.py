@@ -2,7 +2,8 @@
 def digit_sum(number): 
     sum = 0 
     for digit in number: 
-        sum += int(digit)
+        if digit != "-":
+            sum += int(digit)
 
     return str(sum)
 
@@ -19,4 +20,4 @@ def additive_persistence(number):
 
     return counter
 
-print(additive_persistence(1468))
+print(additive_persistence(-199))

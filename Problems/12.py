@@ -7,9 +7,12 @@ def is_prime(number):
 
 def sum_primes(number): 
     sum = 0 
+    if number > 2: 
+        sum = 2 
     for i in range(3, number, 2): 
         if is_prime(i): 
             sum += i 
     
-    return sum
+    return sum 
 
+print(sum_primes(17390))

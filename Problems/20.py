@@ -13,4 +13,4 @@ def sort2(lst):
     lst.sort(key=helper)
     return lst
 
-print(sort2([[1,2,3], 6, "hello world", 7.5, True, False]))
+print(sort2([5, {"hello" : 5, 3: 4, 7: 8, 9:2}, 3.7, 12,4, list(range(40))]))
